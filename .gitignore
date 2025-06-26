@@ -1,0 +1,28 @@
+# Environnements virtuels
+env/
+venv/
+devlab/
+__pycache__/
+*.pyc
+
+# Modèles LLM et gros fichiers
+models/
+llama3/
+*.bin
+*.gguf
+*.ckpt
+*.pt
+*.onnx
+tinyllama/
+mistral/
+nomic-embed-text/
+*.q4_0
+
+
+# Archives et fichiers lourds
+*.zip
+*.tar.gz
+
+# Fichiers temporaires
+.DS_Store
+*.log
